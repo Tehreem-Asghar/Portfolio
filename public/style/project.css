@@ -1,0 +1,23 @@
+.project {
+  width: 100%;
+  min-height: 100vh;
+  background: #0f172a;
+  color: white;
+  padding: 4em 0px;
+}
+
+.heading{
+    font-size: 25px;
+    padding-bottom: 1em;
+    color: #ecaf05;
+    font-size: bold;
+    /* padding:0px 2em; */
+    margin-bottom: 17px;
+    text-align: center;
+}
+
+.ProjectTextSec{
+    text-align: center;
+    line-height: 1.7em;
+    padding: 0px 2em;
+}

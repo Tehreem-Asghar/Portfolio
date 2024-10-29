@@ -1,0 +1,60 @@
+.projectContainer {
+  width: 100%;
+  margin-top: 3em;
+  padding: 0px 2em;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center; /* Centers items in the main container */
+  gap: 1em; /* Adds space between cards */
+}
+
+.aboutProject {
+  width: 100%;
+  max-width: 400px; /* Sets max width for responsiveness */
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1em;
+  border: 2px solid #ecaf05;
+  border-radius: 10px;
+}
+
+.projectImage {
+  height: 300px;
+  width: 100%;
+  max-width: 300px; /* Ensures the image is responsive */
+  margin-bottom: 10px;
+  border-radius: 8px; /* Optional: Rounds image corners */
+}
+
+.projectText {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Icon {
+  color: #ecaf05;
+  font-size: 1.5em; /* Adjust icon size */
+}
+
+@media (max-width: 765px) {
+  .projectContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 630px) {
+  .projectContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 535px) and (max-width: 630px) {
+  .projectContainer {
+    margin-left: 3em;
+  }
+}

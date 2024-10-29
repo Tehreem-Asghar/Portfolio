@@ -1,0 +1,47 @@
+
+/* Main Skills Section */
+.skills-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    padding: 2rem;
+    color: #ffffff;    
+}
+  
+@media (max-width: 640px) {
+    .skills-section {
+      grid-template-columns: 1fr ;
+    }
+}
+  
+/* Individual Skill Container */
+.skill {
+    width: 100%;
+}
+  
+/* Skill Info */
+.skill-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+  
+.skill-name,
+.skill-level {
+    font-size: 1rem;
+    font-weight: 600;
+}
+  
+/* Progress Bar */
+.progress-bar-background {
+    width: 100%;
+    background-color: #444444;
+    border-radius: 10px;
+    height: 1rem;
+    
+}
+  
+.progress-bar-fill {
+    height: 100%;
+    border-radius: 10em;
+}
