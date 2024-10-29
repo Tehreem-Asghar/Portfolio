@@ -3,6 +3,7 @@ import React from "react";
 import "../../../public/style/contact.css";
 import { useForm, ValidationError } from "@formspree/react";
 
+
 export default function Contact() {
   const [state, handleSubmit] = useForm("mbljdbbl");
 
@@ -57,6 +58,7 @@ export default function Contact() {
               className="error"
             />
           </div>
+
 
           {/* Message Field */}
           <div className="fields">
